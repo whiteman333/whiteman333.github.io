@@ -11,8 +11,7 @@
 <body>
     <header>
         <div class="profile-pic">
-            <img src="./img/myphoto.jpg" alt="Hongyu Lu">
-
+            <img src="./img/myphoto.jpg" alt="你的照片" id="profileImage">
         </div>
         <div class="header-text">
             <h1>Hongyu Lu</h1>
@@ -28,7 +27,8 @@
         </section>
 
         <section id="projects">
-            <span>Work in progress...</span>
+            <h2>Projects</h2>
+            <p>Work in progress...</p>
         </section>
 
         <section id="contact">
@@ -46,6 +46,14 @@
     <footer>
         <p>&copy; 2025 Hongyu Lu. All rights reserved.</p>
     </footer>
+
+    <!-- The Modal -->
+    <div id="imageModal" class="modal">
+        <span class="close-modal">&times;</span>
+        <img class="modal-content" id="modalImage">
+    </div>
+
+    <script src="script.js"></script>
 </body>
 
-</html>6
+</html>
