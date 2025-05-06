@@ -288,10 +288,12 @@ footer {
     max-width: 700px;
     cursor: default;
     /* Default cursor for the image itself */
-}
-
-/* Add Animation */
-.modal-content {
+    -webkit-user-select: none;
+    /* Safari */
+    -ms-user-select: none;
+    /* IE 10+ */
+    user-select: none;
+    /* Standard syntax */
     animation-name: zoom;
     animation-duration: 0.4s;
 }
